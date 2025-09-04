@@ -19,3 +19,5 @@ shape = SubResource("CircleShape2D_avlhq")
 [node name="InputComponent" type="Node" parent="."]
 script = ExtResource("3_8xdpj")
 metadata/_custom_type_script = "uid://bnuade5xyg1wx"
+
+[node name="Muzzle" type="Marker2D" parent="."]
