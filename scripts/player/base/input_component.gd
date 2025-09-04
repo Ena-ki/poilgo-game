@@ -20,10 +20,10 @@ func set_player_number(new_player_number : Enums.PlayerNumber) -> void:
 
 func get_movement_vector() -> Vector2:
   return Input.get_vector(
-    player_number_string + "left", 
-    player_number_string + "right",
-    player_number_string + "up",
-    player_number_string + "down",)
+  player_number_string + "left", 
+  player_number_string + "right",
+  player_number_string + "up",
+  player_number_string + "down",)
 
 
 
@@ -44,5 +44,3 @@ func is_ability_3_pressed() -> bool:
 
 func is_ability_4_pressed() -> bool:
   return Input.is_action_just_pressed(player_number_string + "ability_4")
-
-

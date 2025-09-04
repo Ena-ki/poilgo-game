@@ -12,7 +12,7 @@ func _ready():
 func _physics_process(delta: float) -> void:
 
   var direction = input_component.get_movement_vector()
-  velocity = delta * direction * player_class.player_class_res.speed * 10000 # fix this big ass number
+  velocity = direction * player_class.player_class_res.speed * 500
 
   if input_component.is_ability_1_pressed():
     #fix projectile abilities following us
